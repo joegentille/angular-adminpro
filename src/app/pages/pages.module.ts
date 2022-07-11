@@ -11,6 +11,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { AboutComponent } from './about/about.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -21,6 +22,7 @@ import { AboutComponent } from './about/about.component';
     Grafica1Component,
     PagesComponent,
     AboutComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -34,7 +36,8 @@ import { AboutComponent } from './about/about.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AboutComponent
+    AboutComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
